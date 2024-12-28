@@ -1,41 +1,51 @@
 body {
-    font-family: Georgia, serif; /* Tipo de letra principal */
-    font-size: 14px; /* Tamaño de fuente base */
-    background-color: #f7cccc; /* Color de fondo */
-    color: #333333; /* Color del texto */
-    text-align: justify; /* Alineación del texto */
-    margin:20; /* Eliminar márgenes predeterminados */
-    padding: 40; /* Eliminar relleno predeterminado */
+    font-family: Georgia, serif; 
+    font-size: 14px; 
+    background-color: #f7cccc; 
+    color: #333333; 
+    text-align: justify; 
+    margin:20; 
+    padding: 40; 
 }
 
-/* Encabezado nivel 1 */
+
 h1 {
-    color: hsla(43, 37%, 15%, 0.885); /* Color del texto */
-    font-size: 36px; /* Tamaño del texto */
-    font-family: Georgia, serif; /* Tipo de letra */
-    text-align: center; /* Alinear texto al centro */
-    text-decoration-color: #ff6f61; /* Color de la decoración (si subrayado) */
+    animation: color-change 3s infinite;
+    color: hsla(43, 37%, 15%, 0.885); 
+    font-size: 36px; 
+    font-family: Georgia, serif; 
+    text-align: center; 
+    text-decoration-color: #ff6f61; 
 }
 
-/* Encabezado nivel 2 */
+
 h2 {
-    color: hsla(31, 43%, 25%, 0.859); /* Color del texto */
-    font-size: 28px; /* Tamaño del texto */
-    font-family: Georgia, serif; /* Tipo de letra */
-    text-align: left; /* Texto alineado a la izquierda */
+    color: hsla(31, 43%, 25%, 0.859); 
+    font-size: 28px; 
+    font-family: Georgia, serif; 
+    text-align: center; 
 }
 
-/* Encabezado nivel 3 */
+
 h3 {
-    color: hsla(40, 23%, 36%, 0.859); /* Color del texto */
-    font-size: 20px; /* Tamaño del texto */
-    font-family: Georgia, serif; /* Tipo de letra */
-    text-decoration-color: hsla(200, 70%, 50%, 0.8); /* Decoración con diferente color */
+    color: hsla(40, 23%, 36%, 0.859); 
+    font-size: 20px;
+    font-family: Georgia, serif; 
+    text-align: center;
+    text-decoration-color: hsla(200, 70%, 50%, 0.8); 
+}
+
+h4 {
+    color: hsla(39, 28%, 42%, 0.859); 
+    font-size: 20px;
+    font-family: Georgia, serif; 
+    text-align: left;
+    text-decoration-color: hsla(200, 70%, 50%, 0.8); 
 }
 
 
 p {
-    text-align: justify; 
+    text-align: center; 
     line-height: 1.6; 
     font-size: 16px; 
 }
@@ -49,4 +59,50 @@ a:hover {
     text-decoration: underline; 
     text-decoration-color: #0a0a0a; 
 }    
+
+@keyframes color-change {
+    0% {
+      color: rgb(252, 84, 84);
+    }
+  
+    10% {
+      color: rgb(252, 157, 68);
+    }
+  
+    20% {
+      color: rgba(255, 245, 109, 0.851);
+    }
+
+    30% {
+        color: rgb(151, 208, 110);
+    }
+    
+    40% {
+        color: rgb(99, 241, 196);
+    }
+    
+    50% {
+        color: rgb(32, 132, 124);
+    }
+
+    60% {
+        color: rgb(103, 103, 245);
+    }
+    
+    70% {
+        color: rgb(39, 48, 100);
+    }
+    
+    80% {
+        color: rgb(207, 107, 241);
+    }
+
+    90% {
+        color: rgb(228, 15, 125);
+      }
+    
+    100% {
+        color: rgb(199, 87, 158);
+    }
+}
 
