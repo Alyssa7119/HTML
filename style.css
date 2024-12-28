@@ -1,0 +1,52 @@
+body {
+    font-family: Georgia, serif; /* Tipo de letra principal */
+    font-size: 14px; /* Tamaño de fuente base */
+    background-color: #f7cccc; /* Color de fondo */
+    color: #333333; /* Color del texto */
+    text-align: justify; /* Alineación del texto */
+    margin:20; /* Eliminar márgenes predeterminados */
+    padding: 40; /* Eliminar relleno predeterminado */
+}
+
+/* Encabezado nivel 1 */
+h1 {
+    color: hsla(43, 37%, 15%, 0.885); /* Color del texto */
+    font-size: 36px; /* Tamaño del texto */
+    font-family: Georgia, serif; /* Tipo de letra */
+    text-align: center; /* Alinear texto al centro */
+    text-decoration-color: #ff6f61; /* Color de la decoración (si subrayado) */
+}
+
+/* Encabezado nivel 2 */
+h2 {
+    color: hsla(31, 43%, 25%, 0.859); /* Color del texto */
+    font-size: 28px; /* Tamaño del texto */
+    font-family: Georgia, serif; /* Tipo de letra */
+    text-align: left; /* Texto alineado a la izquierda */
+}
+
+/* Encabezado nivel 3 */
+h3 {
+    color: hsla(40, 23%, 36%, 0.859); /* Color del texto */
+    font-size: 20px; /* Tamaño del texto */
+    font-family: Georgia, serif; /* Tipo de letra */
+    text-decoration-color: hsla(200, 70%, 50%, 0.8); /* Decoración con diferente color */
+}
+
+
+p {
+    text-align: justify; 
+    line-height: 1.6; 
+    font-size: 16px; 
+}
+
+a {
+    color: #ff6f61; 
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline; 
+    text-decoration-color: #0a0a0a; 
+}    
+
